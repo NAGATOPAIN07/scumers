@@ -36,7 +36,7 @@ export default class Command extends BaseCommand {
 
         M.sender.jid,
 
-        `    ♥️MY DARLING SENPAI ID♥️\n\n*Instagram * *https://instagram.com/its_chey_7*\n\n*💫 NSFW GROUP💫*:*https://chat.whatsapp.com/GIMBtutJAWYBVWbWOkaOfp*`,
+        `    ♥️MY DARLING SENPAI ID♥️\n\n*Instagram * *https://instagram.com/*\n\n*💫 NSFW GROUP💫*:*https://chat.whatsapp.com/L4SLzoSqQ5a71tuQvv0uju*`,
 
            MessageType.text
 
