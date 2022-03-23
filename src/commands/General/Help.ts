@@ -28,313 +28,189 @@ export default class Command extends BaseCommand {
 ᴛʏᴘᴇ " ${this.client.config.prefix}ᴏᴡɴᴇʀ " ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡɴᴇʀ!
 
 ᴍʏ ᴘʀᴇғʀɪx ${this.client.config.prefix}
+const weeb = [
+    {title: 'anime', rowId:"rowid1"},
+    {title: 'animequote', rowId:"rowid1"},
+    {title: 'animechar', rowId:"rowid2"},
+    {title: 'genshincharacter', rowId:"rowid2"},
+    {title: 'husbando', rowId:"rowid2"},
+    {title: 'loli', rowId:"rowid2"},
+    {title: 'manga', rowId:"rowid2"},
+    {title: 'pokemon', rowId:"rowid2"},
+    {title: 'rpaper', rowId:"rowid2"},
+    {title: 'vtuber', rowId:"rowid2"},
+    {title: 'waifu', rowId:"rowid2"},
+    {title: 'ameme', rowId:"rowid2"},
+    {title: 'character', rowId:"rowid2"},
+    {title: 'crossplay', rowId:"rowid2"},
+    {title: 'haigusa', rowId:"rowid2"},
+    {title: 'recommend', rowId:"rowid2"},
+    {title: 'sauce', rowId:"rowid2"},
+    {title: 'wallpaper', rowId:"rowid2"}
+   ]
+   const bots = [
+    {title: 'entropy', rowId:"rowid1"},
+    {title: 'guide', rowId:"rowid2"},
+    {title: 'infinity', rowId:"rowid2"},
+    {title: 'kaoi', rowId:"rowid2"},
+    {title: 'void', rowId:"rowid2"}
+   ]
+   const config = [
+    {title: 'disable', rowId:"rowid1"},
+    {title: 'enable', rowId:"rowid2"}
+   ]
+   const utils = [
+    {title: 'blur', rowId:"rowid1"},
+    {title: 'kitten', rowId:"rowid1"},
+    {title: 'sticker', rowId:"rowid1"},
+    {title: 'subred', rowId:"rowid1"},
+    {title: 'getgif', rowId:"rowid1"},
+    {title: 'screenshot', rowId:"rowid1"},
+    {title: 'steal', rowId:"rowid1"},
+    {title: 'translate', rowId:"rowid1"},
+    {title: 'wikipedia', rowId:"rowid1"}
+   ]
+   const dev = [
+    {title: 'ban', rowId:"rowid1"},
+    {title: 'eval', rowId:"rowid2"},
+    {title: 'join', rowId:"rowid2"},
+    {title: 'leave', rowId:"rowid2"},
+    {title: 'status', rowId:"rowid2"},
+    {title: 'unban', rowId:"rowid2"}
+   ]
+   const misc = [
+    {title: 'retrieve', rowId:"rowid1"},
+    {title: 'hi', rowId:"rowid1"},
+    {title: 'itachi', rowId:"rowid1"},
+   ]
+   const education = [
+    {title: 'calculator', rowId:"rowid1"},
+    {title: 'covid', rowId:"rowid1"},
+    {title: 'define', rowId:"rowid1"},
+    {title: 'elements', rowId:"rowid2"},
+    {title: 'github', rowId:"rowid2"},
+    {title: 'urbandictionary', rowId:"rowid2"},
+    {title: 'weather', rowId:"rowid2"},
+   ]
+   const fun = [
+    {title: 'chess', rowId:"rowid1"},
+    {title: 'quote', rowId:"rowid2"},
+    {title: 'react', rowId:"rowid2"},
+    {title: 'trigger', rowId:"rowid2"},
+    {title: 'truth', rowId:"rowid2"},
+    {title: 'chat', rowId:"rowid2"},
+    {title: 'dare', rowId:"rowid2"},
+    {title: 'fact', rowId:"rowid2"},
+    {title: 'safejoke', rowId:"rowid2"},
+    {title: 'ship', rowId:"rowid2"},
+    {title: 'trivia', rowId:"rowid2"}]
+   const general = [
+       {title: 'admins', rowId:"rowid2"},
+       {title: 'everyone', rowId:"rowid2"},
+       {title: 'help', rowId:"rowid2"},
+       {title: 'mods', rowId:"rowid2"},
+       {title: 'profile', rowId:"rowid2"},
+       {title: 'rank', rowId:"rowid1"},
+       {title: 'xp', rowId:"rowid2"},
+       {title: 'invitelink', rowId:"rowid2"},
+       {title: 'delete', rowId:"rowid2"}
+    ]
+    const media = [
+        {title: 'play', rowId:"rowid2"},
+        {title: 'spotify', rowId:"rowid2"},
+        {title: 'take', rowId:"rowid1"},
+        {title: 'ytaudio', rowId:"rowid2"},
+        {title: 'ytsearch', rowId:"rowid2"},
+        {title: 'ytvideo', rowId:"rowid2"},
+        {title: 'google', rowId:"rowid2"},
+        {title: 'lyrics', rowId:"rowid2"},
+        {title: 'pinterest', rowId:"rowid2"}
+   ]
+   const nsfw = [
+    {title: 'anal', rowId:"rowid2"},
+    {title: 'blowjob', rowId:"rowid2"},
+    {title: 'nsfwdoujin', rowId:"rowid1"},
+    {title: 'nsfwloli', rowId:"rowid2"},
+    {title: 'nsfwpaper', rowId:"rowid2"},
+    {title: 'thighs', rowId:"rowid2"},
+    {title: 'hentai', rowId:"rowid2"},
+    {title: 'maid', rowId:"rowid2"},
+    {title: 'masturbation', rowId:"rowid2"},
+    {title: 'nsfw-waifu', rowId:"rowid2"},
+    {title: 'nsfwjoke', rowId:"rowid2"},
+    {title: 'nsfw-neko', rowId:"rowid2"},
+    {title: 'pussy', rowId:"rowid2"},
+    {title: 'trap', rowId:"rowid2"},
+]
+   const moderation = [
+    {title: 'activate', rowId:"rowid1"},
+    {title: 'deactivate', rowId:"rowid2"},
+    {title: 'demote', rowId:"rowid2"},
+    {title: 'groupchange', rowId:"rowid2"},
+    {title: 'promote', rowId:"rowid2"},
+    {title: 'purge', rowId:"rowid2"},
+    {title: 'remove', rowId:"rowid2"},
+    {title: 'close', rowId:"rowid2"},
+    {title: 'open', rowId:"rowid2"},
+    {title: 'revoke', rowId:"rowid2"},
+    {title: 'ppcouple', rowId:"rowid2"}]
 
-🧾 Here are the listed commands...
-────────────────
--G E N E R A L 
-${this.client.config.prefix}Ｈelp1 [${this.client.config.prefix}h1]
-────────────────
-〽️~ᴀᴅᴍɪɴs
-💠Description: Tags all Admins 
-🧧Usage: ${this.client.config.prefix}Admins
+   const sections = [
+                     {title: "fun 🚀", rows: fun },
+                     {title: "general 🌀", rows: general },
+                     {title: "media 🎵", rows: media },
+                     {title: "misc 🧿", rows: misc },
+                     {title: "moderation ⚖️", rows: moderation },
+                     {title: "nsfw 🚫", rows: nsfw },
+                     {title: "utils 👑", rows: utils },
+                     {title: "weeb ✨", rows: weeb },
+                     {title: "education 📚", rows: education },
 
-〽️~ᴇᴠᴇʀʏᴏɴᴇ
-💠Description:
-🧧Usage: ${this.client.config.prefix}Everyone
-
-〽️~ᴍᴏᴅs
-💠Description: Displays the Moderators' contact info
-🧧Usage: ${this.client.config.prefix}Mods
-
-〽️~ᴘʀᴏғɪʟᴇ
-💠Description: Displays user-profile 
-🧧Usage: ${this.client.config.prefix}Profile
-
-〽️~ʀᴀɴᴋ
-💠Description: Displays user-rank
-🧧Usage: ${this.client.config.prefix}Rank
-
-〽️~xᴘ
-💠Description: Displays User's Xp ♨
-🧧Usage: ${this.client.config.prefix}Xp
-
-〽️~ɪɴᴠɪᴛᴇʟɪɴᴋ
-💠Description: Get the group invite link
-🧧Usage: ${this.client.config.prefix}Invitelink
-
-〽️~ᴅᴇʟᴇᴛᴇ
-💠Description: Deletes the quoted Message
-🧧Usage: ${this.client.config.prefix}Delete
-
-〽️~ʀᴇᴛʀɪᴇᴠᴇ
-💠Description: Well....
-🧧Usage: ${this.client.config.prefix}Retrieve
-
-〽️~ʜɪ
-💠Description: Say hi to the bot
-🧧Usage: ${this.client.config.prefix}Hi
-
-〽️~marin
-💠Description: Displays the info
-🧧Usage: ${this.client.config.prefix}marin
-
-〽️~info
-💠Description: Will display the info of the bot
-🧧Usage: ${this.client.config.prefix}info
-────────────────
--W E E B S 
-${this.client.config.prefix}Ｈelp2 [${this.client.config.prefix}h2]
-────────────────
-🧧 ${this.client.config.prefix}ᴀɴɪᴍᴇ
-🧧 ${this.client.config.prefix}ᴀɴɪᴍᴇQᴜᴏᴛᴇ
-🧧 ${this.client.config.prefix}ᴀɴɪᴍᴇᴄʜᴀʀ
-🧧 ${this.client.config.prefix}ɢᴇɴꜱʜɪɴᴄʜᴀʀᴀᴄᴛᴇ
-🧧 ${this.client.config.prefix}ʜᴜꜱʙᴀɴᴅᴏ
-🧧 ${this.client.config.prefix}ʟᴏʟɪ
-🧧 ${this.client.config.prefix}ᴍᴀɴɢᴀ
-🧧 ${this.client.config.prefix}ᴘᴏᴋᴇᴍᴏɴ
-🧧 ${this.client.config.prefix}ʀᴘᴀᴘᴇʀ
-🧧 ${this.client.config.prefix}ᴠᴛᴜʙᴇʀ
-🧧 ${this.client.config.prefix}ᴡᴀɪꜰᴜ
-🧧 ${this.client.config.prefix}ᴀᴍᴇᴍᴇ
-🧧 ${this.client.config.prefix}ᴄʜᴀʀᴀᴄᴛᴇʀ
-🧧 ${this.client.config.prefix}ᴄʀᴏꜱꜱᴘʟᴀʏ
-🧧 ${this.client.config.prefix}ʜᴀɪɢᴜꜱʜᴀ
-🧧 ${this.client.config.prefix}ʀᴇᴄᴏᴍᴍᴇɴᴅ
-🧧 ${this.client.config.prefix}ꜱᴀᴜᴄᴇ
-🧧 ${this.client.config.prefix}ᴡᴀʟʟᴘᴀᴘᴇʀ
-🧧 ${this.client.config.prefix}rpaper
-🧧 ${this.client.config.prefix}seggs [tag user]
-────────────────
--F U N 
-${this.client.config.prefix}Ｈelp3 [${this.client.config.prefix}h3]
-────────────────
-〽️~Qᴜᴏᴛᴇ
-💠Discription: random quote
-🧧Usage: ${this.client.config.prefix}Quote
-
-〽️~ʀᴇᴀᴄᴛ
-💠Discription: Let's React
-🧧Usage: ${this.client.config.prefix}React
-
-〽️~ᴛʀɪɢɢᴇʀ
-💠Discription: Sends the triggered version of you
-🧧Usage: ${this.client.config.prefix}Trigger
-
-〽️~ᴛʀᴜᴛʜ
-💠Discription: Gives you random questions
-🧧Usage: ${this.client.config.prefix}Truth
-
-〽️~ᴄʜᴀᴛ
-💠Discription: Chat with the Bot in group
-🧧Usage: ${this.client.config.prefix}Chat
-
-〽️~ᴅᴀʀᴇ
-💠Discription: Gives you random task
-🧧Usage: ${this.client.config.prefix}Dare
-
-〽️~ꜰᴀᴄᴛ
-💠Discription: sends a random fact for you
-🧧Usage: ${this.client.config.prefix}Fact
-
-〽️~ꜱᴀꜰᴇᴊᴏᴋᴇ
-💠Discription: Will send you random safe joke
-🧧Usage: ${this.client.config.prefix}SafeJoke
-
-〽️~sʜɪᴘ
-💠Discription: Ship 💖 People
-🧧Usage: ${this.client.config.prefix}Ship
-
-〽️~ᴊᴀɪʟ
-💠Discription: Who wanna go to jail for being horny?
-🧧Usage: ${this.client.config.prefix}Jail
-
-〽️~ᴡᴀɴᴛᴇᴅ
-💠Discription: Well... make someone wanted
-🧧Usage: ${this.client.config.prefix}Wanted
-
-〽️~ʀɪᴘ
-💠Discription: RIP
-🧧Usage: ${this.client.config.prefix}Rip
-
-〽️~ᴛʀᴀsʜ
-💠Discription: Make someone a trash
-🧧Usage: ${this.client.config.prefix}Trash
-
-〽️~ppcouple
-💠Discription: Sends pair dp
-🧧Usage: ${this.client.config.prefix}ppcouple
-
-〽️~chess
-💠Discription: chesssssssssssssss
-🧧Usage:${this.client.config.prefix}chess
-────────────────
--M E D I A 
-${this.client.config.prefix}Ｈelp4 [${this.client.config.prefix}h4]
-────────────────
-〽️~ɪɢ
-💠Discription: Get the info of a user from ig
-🧧Usage: ${this.client.config.prefix}Ig
-
-〽️~ᴘʟᴀʏ
-💠Discription: 🎵 play a song with just search term!
-🧧Usage: ${this.client.config.prefix}Play
-
-〽️~ꜱᴘᴏᴛɪꜰʏ
-💠Discription: Downloads given spotify track and sends it as Audio
-🧧Usage: ${this.client.config.prefix}Spotify
-
-〽️~ᴛᴀᴋᴇ
-💠Discription: steals the sticker for you
-🧧Usage: ${this.client.config.prefix}Take
-
-〽️~ʏᴛᴀᴜᴅɪᴏ
-💠Discription: Downloads given YT Video and sends it as Audio
-🧧Usage: ${this.client.config.prefix}Ytaudio
-
-〽️~ʏᴛꜱᴇᴀʀᴄʜ
-💠Discription: Searches YT
-🧧Usage: ${this.client.config.prefix}Ytsearch
-
-〽️~ʏᴛᴠɪᴅᴇᴏ
-💠Discription: Downloads given YT Video
-🧧Usage: ${this.client.config.prefix}Ytvideo
-
-〽️~ɢᴏᴏɢʟᴇ
-💠Discription: Search on the web
-🧧Usage: ${this.client.config.prefix}Google
-
-〽️~ʟʏʀɪᴄꜱ
-💠Discription: Gives you the lyrics of the given song
-🧧Usage: ${this.client.config.prefix}Lyrics
-
-〽️~ᴘɪɴᴛᴇʀᴇꜱᴛ
-💠Discription: Search wallpaper from pinterest.com
-🧧Usage: ${this.client.config.prefix}pinterest
-
-〽️~karaoke
-💠Discription: Gives you karaoke song playable on WhatsApp
-🧧Usage:${this.client.config.prefix}karaoke [term]
-
-〽️~iguser
-💠Discription: Get the info of a user from ig
-🧧Usage:${this.client.config.prefix}iguser [name]
-────────────────
--U T I L S 
-${this.client.config.prefix}Help5 [${this.client.config.prefix}h5]
-────────────────
-🏮 ${this.client.config.prefix}ʙʟᴜʀ
-🏮 ${this.client.config.prefix}ᴋɪᴛᴛᴇɴ
-🏮 ${this.client.config.prefix}ꜱᴛɪᴄᴋᴇʀ
-🏮 ${this.client.config.prefix}ꜱᴜʙʀᴇᴅ
-🏮 ${this.client.config.prefix}ɢᴇᴛɢɪꜰ
-🏮 ${this.client.config.prefix}ꜱᴄʀᴇᴇɴꜱʜᴏᴛ
-🏮 ${this.client.config.prefix}ꜱᴛᴇᴀʟ
-🏮 ${this.client.config.prefix}ᴛʀᴀɴꜱʟᴀᴛᴇ
-🏮 ${this.client.config.prefix}ᴡɪᴋɪᴘᴇᴅɪᴀ
-🏮 ${this.client.config.prefix}ᴄɪʀᴄʟᴇ
-🏮 ${this.client.config.prefix}shorturl [Your url]
-🏮 ${this.client.config.prefix}toimg [(tag)[sticker]]
-🏮 ${this.client.config.prefix}chey
-🏮 ${this.client.config.prefix}doge
-────────────────
--M O D E R A T I O N 
-${this.client.config.prefix}Ｈelp6 [${this.client.config.prefix}h6]
-────────────────
-〽️~ᴀᴄᴛɪᴠᴀᴛᴇ
-💠Description: activate certain features on group-chats
-🧧Usage: ${this.client.config.prefix}Activate
-
-〽️~ᴅᴇᴀᴄᴛɪᴠᴀᴛᴇ
-💠Description: deactivate certain features on group-chats
-🧧Usage: ${this.client.config.prefix}Deactivate
-
-〽️~ᴅᴇᴍᴏᴛᴇ
-💠Discription: deactivate certain features on group-chats
-🧧Usage: ${this.client.config.prefix}Demote
-
-〽️~ɢʀᴏᴜᴘᴄʜᴀɴɢᴇ
-💠Description: Updates the Group Subject or Description
-🧧Usage: ${this.client.config.prefix}Groupchange
-
-〽️~ᴘʀᴏᴍᴏᴛᴇ
-💠Discription: promotes the mentioned users
-🧧Usage: ${this.client.config.prefix}promote
-
-〽️~ᴘᴜʀɢᴇ
-💠Discription: Removes all group members
-🧧Usage: ${this.client.config.prefix}Purge
-
-〽️~ʀᴇᴍᴏᴠᴇ
-💠Discription: demotes the mentioned users
-🧧Usage: ${this.client.config.prefix}Remove
-
-〽️~ᴄʟᴏꜱᴇ
-💠Discription: Close the group for all participants. Only Admins can message
-🧧Usage: ${this.client.config.prefix}
-
-〽️~ᴏᴘᴇɴ
-💠Discription: Opens the group for all participants
-🧧Usage: ${this.client.config.prefix}Open
-
-〽️~ʀᴇᴠᴏᴋᴇ
-💠Discription: Revokes the group link
-🧧Usage: ${this.client.config.prefix}Revoke
-
-〽️~ᴘᴘᴄᴏᴜᴘʟᴇ
-💠Discription: send random ppcouple image
-🧧Usage: ${this.client.config.prefix}ppcouple
-────────────────
--E D U C A T I V E 
-${this.client.config.prefix}Ｈelp7 [${this.client.config.prefix}h7]
-────────────────
-〽️~ᴄᴀʟᴄᴜʟᴀᴛᴏʀ
-💠Description: Calculates the given value
-🧧Usage: ${this.client.config.prefix}calculator
-
-〽️~ᴄᴏᴠɪᴅ
-💠Description: get the covid-19 info of the current place
-🧧Usage: ${this.client.config.prefix}covid
-
-〽️~ᴅᴇꜰɪɴᴇ
-💠Description: Gives you the defination of the given word
-🧧Usage: ${this.client.config.prefix}Define
-
-〽️~ᴇʟᴇᴍᴇɴᴛꜱ
-💠Description: get the info of the chemical element
-🧧Usage: ${this.client.config.prefix}Elements
- 
-〽️~ɢɪᴛʜᴜʙ
-💠Description: Get github information about a user/repo
-🧧Usage: ${this.client.config.prefix}GitHub
-
-〽️~ᴜʀʙᴀɴᴅɪᴄᴛɪᴏɴᴀʀʏ
-💠Description: Gives you the definition of the given word
-🧧Usage: ${this.client.config.prefix}Urbandictionary
-
-〽️~ᴡᴇᴀᴛʜᴇʀ
-💠Description:
-🧧Usage: ${this.client.config.prefix}Weather
-────────────────
--N S F W 🔞
-${this.client.config.prefix}Help8 [${this.client.config.prefix}h8]
-────────────────
-🍒 ${this.client.config.prefix}ᴀɴᴀʟ
-🍒 ${this.client.config.prefix}ʙʟᴏᴡᴊᴏʙ
-🍒 ${this.client.config.prefix}ɴꜱꜰᴡᴅᴏᴜᴊɪɴ
-🍒 ${this.client.config.prefix}ɴꜱꜰᴡʟᴏʟɪ
-🍒 ${this.client.config.prefix}ɴꜱꜰᴡᴘᴀᴘᴇʀ
-🍒 ${this.client.config.prefix}ᴛʜɪɢʜꜱ
-🍒 ${this.client.config.prefix}ʜᴇɴᴛᴀɪ
-🍒 ${this.client.config.prefix}ᴍᴀɪᴅ
-🍒 ${this.client.config.prefix}ᴍᴀꜱᴛᴜʀʙᴀᴛɪᴏɴ
-🍒 ${this.client.config.prefix}ɴᴄᴏᴅᴇ
-🍒 ${this.client.config.prefix}ɴꜱꜰᴡ-ᴡᴀɪꜰᴜ
-🍒 ${this.client.config.prefix}ɴꜱꜰᴡᴊᴏᴋᴇ
-🍒 ${this.client.config.prefix}ɴꜱꜰᴡ-ɴᴇᴋᴏ
-🍒 ${this.client.config.prefix}ᴘᴜꜱꜱʏ
-🍒 ${this.client.config.prefix}ᴛʀᴀᴘ
-💦 If You Want More Stuff Type ${this.client.config.prefix}h8
+]
+const txt = '\n' +
+    `│⋊ ᴜꜱᴇʀ: *${M.sender.username}*\n` +
+    '│⋊ ɴᴀᴍᴇ:. ❟❛❟ *MARIN-KITAGAWA\n' +
+    '│⋊ ᴘʀᴇꜰɪx: ${this.client.config.prefix}\n' +
+    '│⋊ ᴏᴡɴᴇʀ: <${this.client.config.prefix}mod>\n' +
+    '╰────────────┈平和                            \n' +
+    '\n' +
+    '🚀 *Fun*🚀\n' +
+    '\n' +
+    '• ```chess, quote, react, trigger, truth, chat, dare, fact, safejoke, ship, trivia```\n' +
+    '\n' +
+    '🌀 *General*🌀\n' +
+    '\n' +
+    '• ```admins, everyone, help, mods, profile, rank, xp, invitelink, delete```\n' +
+    '\n' +
+    '🎵 *Media*🎵\n' +
+    '\n' +
+    '• ```ig, play, spotify, take, ytaudio, ytsearch, ytvideo, google, lyrics, pinterest```\n' +
+    '\n' +
+    '🧿 *Misc* 🧿\n'   +
+    '\n' +
+    '• ```retrieve, hi, itachi```\n' +
+    '\n' +
+    '⚖️ *Moderation* ⚖️\n' +
+    '\n' +
+    '• ```activate, deactivate, demote, groupchange, promote, purge, remove, close, open, revoke, ppcouple```\n' +
+    '\n' +
+    '🚫 *Nsfw*🚫\n' +
+    '\n' +
+    '• ```anal, blowjob, nsfwdoujin, nsfwloli, nsfwpaper, thighs, hentai, maid, masturbation, nsfw-waifu, nsfwjoke, nsfw-neko, pussy, trap```\n' +
+    '\n' +
+    '👑 *Utils*👑\n' +
+    '\n' +
+    '• ```blur, kitten, sticker, subred, getgif, screenshot, steal, translate, wikipedia```\n' +
+    '\n' +
+    '✨ *Weeb* ✨\n' +
+    '\n' +
+    '• ```anime, animequote, animechar, genshincharacter, husbando, loli, manga, pokemon, rpaper, vtuber, waifu, ameme, character, crossplay, haigusha, recommend, sauce, wallpaper```\n' +
+    '\n' +
+    '📚 *Educative*📚\n' +
+    '\n' +
+    '• ```calculator, covid, define, elements, github, urbandictionary, weather```\n' +
+    '\n' +
+    ' \n' +
 ───────────────
 ┌────────────┈
 │  🤍マリン🤍
