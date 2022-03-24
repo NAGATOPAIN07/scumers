@@ -10,7 +10,7 @@
 
 > A Fully Modular and Efficient Yotsuba Bot <br>
 
-[![Deploy](https://www.herokucdn.com/deploy)](https://heroku.com/deploy?template=https://github.com//Eximinati/scums-repo/blob/main)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com//Eximinati/scums-repo)
 
 </div><br/>
 <br/>
