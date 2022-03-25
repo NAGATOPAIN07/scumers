@@ -23,12 +23,12 @@ export default class Command extends BaseCommand {
 		{ joined }: IParsedArgs
 	): Promise<void> => {
 		const stickers = [
-			"https://wallpapercave.com/wp/wp3144753.jpg",
-			"https://wallpapercave.com/wp/wp4782018.jpg",
-			"https://wallpaperaccess.com/full/1326836.jpg",
-			"https://wallpapermemory.com/uploads/711/chitoge-kirisaki-wallpaper-full-hd-323316.jpg",
-			"https://data.whicdn.com/images/304776416/original.jpg",
-			"https://i.pinimg.com/564x/ca/e7/8a/cae78ad7f8e6459ad20bde350e2eb78b.jpg",
+			"https://wallpapercave.com/uwp/uwp2030801.png",
+			"https://wallpapercave.com/uwp/uwp1895872.png",
+			"https://wallpapercave.com/uwp/uwp2105457.jpeg",
+			"https://wallpapercave.com/uwp/uwp1895867.png",
+			"https://wallpapercave.com/uwp/uwp1895870.png",
+			"https://pin.it/4L8BLPH",
 		];
 		const option = ["--s", "--sticker"];
 		const random = stickers[Math.floor(Math.random() * stickers.length)];
