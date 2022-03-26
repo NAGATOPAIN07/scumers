@@ -33,12 +33,12 @@ Button : If you are deploying from a fork if you want to deploy Marin Kitagawa-B
 ## 💻 Deploy/Hosting Guide
 
 -   Section Moved to
-    [Marin-Guides](https://github.com/Eximinati/scums-repo/blob/main/README.md)
+    [Marin-Guides](https://github.com/Eximinati/scumers/blob/main/README.md)
 
 ## 🍥 Features of the Repo
 
 -   To view all features, click
-    here➡️[Kitagawa_featuresList.md](https://github.com/Eximinati/scums-repo/blob/main/Features.md)
+    here➡️[Kitagawa_featuresList.md](https://github.com/Eximinati/scumers/blob/main/Features.md)
 
 ## 💪 Contribution
 
@@ -49,7 +49,7 @@ Button : If you are deploying from a fork if you want to deploy Marin Kitagawa-B
 ##  🚀 Official Bot Contributors
 
 <a href="https://github.com/Eximinati/scums-repo/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Eximinati/scums-repo" />
+  <img src="https://contrib.rocks/image?repo=Eximinati/scumers" />
 </a>
 
 
