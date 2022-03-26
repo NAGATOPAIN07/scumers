@@ -3,7 +3,7 @@
 <a href="https://github.com/Chey-san/"><img src="https://user-images.githubusercontent.com/97988840/156468495-58f662e6-959a-4121-87f7-8ea9cba47f03.gif"
 " alt="Marin" border="0"></a>
 
-💫**Marin: A WhatsApp BOT🖤💖 WITH RICH✨ NSFW🔞FEATURES BASED ON <a href="https://github.com/Eximinati/scums-repo">MArin-Kitagawa</er></a></h1>**
+💫**Marin: A WhatsApp BOT🖤💖 WITH RICH✨ NSFW🔞FEATURES BASED ON <a href="https://github.com/Eximinati/scumers">MArin-Kitagawa</er></a></h1>**
 
     
 ## [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/923087880256) [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![NodeJs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/)
