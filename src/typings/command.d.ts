@@ -35,4 +35,5 @@ export type TCategory =
 	| "utils"
 	| "weeb"
 	| "nature"
+	| "creation"
 	| "category";
