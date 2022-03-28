@@ -95,6 +95,7 @@ export default class MessageHandler {
 			if (!command)
 				return void M.reply( await request.buffer(`https://c.tenor.com/9F4rnAhaFr8AAAAC/my-dress-up-darling-sono-bisque-doll.gif`),
         MessageType.video,
+            Mimetype.gif,
                     undefined,
                     undefined,
                     `No such command, Baka! Have you never seen someone use the command *${this.client.config.prefix}help*`,
