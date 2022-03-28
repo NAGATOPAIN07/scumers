@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
             command: 'Examinati',
             description: 'Displays info about chey.',
             category: 'general',
-            usage: `${client.config.prefix}chey`
+            usage: `${client.config.prefix}Eximinati`
         })
     }
 
@@ -22,7 +22,7 @@ export default class Command extends BaseCommand {
         let rin = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: rin }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
-            caption: `Hey I'm CHEY, a learner/student & an upcoming developer in the future.
+            caption: `Hey I'm Aku, a student & maybe an upcoming developer in the future, Arigato for using my bot. 
             
 📫𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥;
 Wa.me/923087880256
