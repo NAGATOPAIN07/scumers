@@ -8,7 +8,7 @@ import { ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'chey',
+            command: 'Examinati',
             description: 'Displays info about chey.',
             category: 'general',
             usage: `${client.config.prefix}chey`
@@ -25,16 +25,16 @@ export default class Command extends BaseCommand {
             caption: `Hey I'm CHEY, a learner/student & an upcoming developer in the future.
             
 📫𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥;
-Wa.me/918373017400
+Wa.me/923087880256
 
 ⭕𝙂𝙞𝙩𝙝𝙪𝙗;
-https://github.com/Chey-san
+https://github.com/Eximinati 
 
 📮𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢;
-https://instagram.com/its_chey_7
+｟𝖢𝗈𝗆𝗂𝗇𝗀 𝖲𝗈𝗈𝗇｠
 
 🚀𝘿𝙞𝙨𝙘𝙤𝙧𝙙;
-｟𝖢𝗈𝗆𝗂𝗇𝗀 𝖲𝗈𝗈𝗇｠
+Username: Sempai#5552
 
 ⪼𝖲𝖾𝖾 𝗒𝖺𝗁😉✨` }
         )
