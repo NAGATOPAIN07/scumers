@@ -93,7 +93,7 @@ export default class MessageHandler {
 			)}`
 		);
 			if (!command)
-				return void M.reply( await request.buffer(`https://telegra.ph/file/c534b659a643e8b5c8ddf.mp4`),
+				return void M.reply( await request.buffer(`https://c.tenor.com/9F4rnAhaFr8AAAAC/my-dress-up-darling-sono-bisque-doll.gif`),
         MessageType.video,
                     undefined,
                     undefined,
