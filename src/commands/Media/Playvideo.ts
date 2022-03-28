@@ -24,7 +24,7 @@ export default class Command extends BaseCommand {
 
             category: 'media',
 
-            aliases: ['video, playvideo, playvid'],
+            aliases: ['video', 'playvideo', 'playvid'],
 
             usage: `${client.config.prefix}play2 [term]`,
 
