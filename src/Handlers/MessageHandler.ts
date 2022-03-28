@@ -1,4 +1,4 @@
-import { MessageType } from '@adiwajshing/baileys/lib/WAConnection'
+import { MessageType, Mimetype } from '@adiwajshing/baileys/lib/WAConnection'
 import axios from 'axios'
 import chalk from 'chalk'
 import { join } from 'path'
