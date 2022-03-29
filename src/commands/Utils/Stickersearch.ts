@@ -34,7 +34,7 @@ const b = `${data.results?.[Math.floor(Math.random() * data.results.length)]?.me
         const sticker: any = await new Sticker(b, {
 			pack: "sticker",
 			author: "BY AKU",
-			quality: 90,
+			quality: 50,
 			type: "crop",
 			categories: ["🎊"],
 		});
