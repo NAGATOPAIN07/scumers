@@ -12,7 +12,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'stickerserach',
             aliases: ['ssh', 'ssc'],
-            description: 'Search sticker. ',
+            description: 'Will Sent A Random Sticker. ',
             category: 'utils',
             dm: true,
             usage: `${client.config.prefix}stickerserach [keywords]`
@@ -34,7 +34,7 @@ const b = `${data.results?.[Math.floor(Math.random() * data.results.length)]?.me
         const sticker: any = await new Sticker(b, {
 			pack: "sticker",
 			author: "BY AKU",
-			quality: 50,
+			quality: 48,
 			type: "crop",
 			categories: ["🎊"],
 		});
