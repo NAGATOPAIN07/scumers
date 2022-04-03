@@ -34,11 +34,11 @@ export default class Command extends BaseCommand {
 			return `${pad(hours)}:${pad(minutes)}:${pad(secs)}`;
 		};
 		const uptime = () => formatTime(process.uptime());
-		await M.reply(await request.buffer(`https://c.tenor.com/veo9RwLpw8AAAAPo/nakano-yotsuba-wolverine.mp4`),
+		await M.reply(await request.buffer(`https://c.tenor.com/d11CjnZpu70AAAPo/marin-love-marin-cute.mp4`),
             MessageType.video,
             Mimetype.gif,
             undefined,
-            `━━━❰ 🅨︎🅞︎🅣︎🅢︎🅤︎🅑︎🅐︎ ❱━━━\n\n🔮 *Groups: ${
+            `━━━❰ 𝕸𝖆𝖗𝖎𝖓 𝖐𝖎𝖙𝖆𝖌𝖆𝖜𝖆 ❱━━━\n\n🔮 *Groups: ${
 				chats.length
 					}*\n\n🚦 *Uptime: ${uptime()}*\n\n🦆 *My cute people: ${users}*\n\n💢 *Banned Users: ${uban}*\n\n\n`,
                     undefined
