@@ -1,6 +1,6 @@
 {
-    "name": "chitoge",
-    "version": "3.0.0",
+    "name": "date-a-live",
+    "version": "3.0.2",
     "description": "A WhatsApp Bot With Rich Anime Features.",
     "main": "dist/chitoge.js",
     "scripts": {
@@ -10,22 +10,19 @@
         "prettier-format": "prettier --config .prettierrc \"src/**/*.ts\" --write",
         "postinstall": "yarn run build"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/ShineiIchijo/Chitoge.git"
-    },
+    "repository": "git+https://github.com/Eximinati/scumers.git",
     "keywords": [
         "bot",
         "typescript",
         "whatsapp",
         "chitoge"
     ],
-    "author": "Synthesized Infinity & Shinei Ichijo",
+    "author": "AKU",
     "license": "AGPL-3.0",
     "bugs": {
-        "url": "https://github.com/ShineiIchijo/Chitoge/issues"
+        "url": "https://github.com/Eximinati/scumers/issues"
     },
-    "homepage": "https://github.com/ShineiIchijo/Chitoge#readme",
+    "homepage": "https://github.com/Eximinati/scumers#readme",
     "devDependencies": {
         "@types/express": "^4.17.12",
         "@types/fs-extra": "^9.0.11",

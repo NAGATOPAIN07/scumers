@@ -23,9 +23,8 @@ export default class Command extends BaseCommand {
         let well = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: well }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
-            caption: `Konnichiwa👋 ɪ ᴀᴍ 𝓜𝓪𝓻𝓲𝓷💖🖤!
-
-ᴛʏᴘᴇ " ${this.client.config.prefix}ᴏᴡɴᴇʀ " ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡɴᴇʀ!
+            caption: `Ohayo, watashi wa Tokisaki Kurumi desu.'
+ᴛʏᴘᴇ " ${this.client.config.prefix}Master " ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ Master!
 ᴍʏ ᴘʀᴇғʀɪx ${this.client.config.prefix}
 🧾 Here are the listed commands...
 ────────────────
@@ -64,7 +63,7 @@ Usage: ${this.client.config.prefix}Retrieve
 Usage: ${this.client.config.prefix}Hi
 marin
 💠Description: Displays the info
-Usage: ${this.client.config.prefix}marin
+Usage: ${this.client.config.prefix}Kurumi
 info
 💠Description: Will display the info of the bot
 Usage: ${this.client.config.prefix}info

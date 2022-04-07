@@ -44,7 +44,7 @@ export default class Command extends BaseCommand {
 
         const n = [
 
-            'https://telegra.ph/file/38a9538ae1f2387235caf.mp4'
+            'https://c.tenor.com/X8rNHwat3IYAAAPo/date-a-live-kurumi-tokisaki.mp4'
 
         ]
 
